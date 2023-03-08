@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import HeroImg2 from '../components/HeroImg2';
 import Footer from '../components/Footer';
-import StackExperience from '../components/StackExperience';
+import Work from '../components/Work';
 const Projects = () => {
 	return (
 		<div>
@@ -11,7 +11,7 @@ const Projects = () => {
 				heading="PROJECTS."
 				text="Some of my most recent work"
 			/>
-			<StackExperience />
+			<Work />
 			<Footer />
 		</div>
 	);
