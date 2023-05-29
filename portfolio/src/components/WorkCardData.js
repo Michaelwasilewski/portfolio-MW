@@ -30,7 +30,7 @@ const ProjectCardData = [
 	{
 		imgscr: project4,
 		title: 'Holidaze',
-		text: 'This is my Project Exam in my last year at noroff.ReactJS,Tailwind.',
+		text: 'This is my Project Exam in my last year at noroff. Made with ReactJS,Tailwind and Redux.',
 		view: 'https://project-exam-2-lyart.vercel.app/',
 		source:
 			'https://github.com/Michaelwasilewski/project-exam-2',
