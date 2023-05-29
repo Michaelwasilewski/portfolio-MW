@@ -1,7 +1,7 @@
 import Project1 from '../assets/first-project.png';
 import project2 from '../assets/second-project.png';
 import project3 from '../assets/third-project.png';
-
+import project4 from '../assets/Holidaze.png';
 const ProjectCardData = [
 	{
 		imgscr: Project1,
@@ -26,6 +26,14 @@ const ProjectCardData = [
 		view: 'https://rad-squirrel-681864.netlify.app/home.html',
 		source:
 			'https://github.com/Michaelwasilewski/Semester-project2',
+	},
+	{
+		imgscr: project4,
+		title: 'Holidaze',
+		text: 'This is my Project Exam in my last year at noroff.ReactJS,Tailwind.',
+		view: 'https://project-exam-2-lyart.vercel.app/',
+		source:
+			'https://github.com/Michaelwasilewski/project-exam-2',
 	},
 ];
 
