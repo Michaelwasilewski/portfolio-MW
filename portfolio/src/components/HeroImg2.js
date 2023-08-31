@@ -1,3 +1,4 @@
+import { AboutSection } from './AboutSection';
 import './HeroImg2Styles.css';
 
 import React, { Component } from 'react';

@@ -1,6 +1,6 @@
-import './FooterStyles.css';
+import "./FooterStyles.css";
 
-import React from 'react';
+import React from "react";
 
 import {
 	FaFacebook,
@@ -9,7 +9,7 @@ import {
 	FaHome,
 	FaLinkedin,
 	FaGithub,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 const Footer = () => {
 	return (
@@ -20,8 +20,8 @@ const Footer = () => {
 						<FaHome
 							size={20}
 							style={{
-								color: '#fff',
-								marginRight: '2rem',
+								color: "#fff",
+								marginRight: "2rem",
 							}}
 						/>
 						<div>
@@ -34,8 +34,8 @@ const Footer = () => {
 							<FaPhone
 								size={20}
 								style={{
-									color: '#fff',
-									marginRight: '2rem',
+									color: "#fff",
+									marginRight: "2rem",
 								}}
 							/>
 							+ 47 941 01 190
@@ -46,8 +46,8 @@ const Footer = () => {
 							<FaMailBulk
 								size={20}
 								style={{
-									color: '#fff',
-									marginRight: '2rem',
+									color: "#fff",
+									marginRight: "2rem",
 								}}
 							/>
 							Michaelwasilewski9412@gmail.com
@@ -57,35 +57,60 @@ const Footer = () => {
 				<div className="right">
 					<h4>About me</h4>
 					<p>
-						I'm a 28 year old student at Noroff,
-						looking to find a junior developer
-						position at a company ! I enjoy
-						discussing new project and design
-						challenges. Feel free to contant me
-						any time.
+						I'm a 29 year old junior developer,
+						looking to find a position at a
+						company ! I enjoy discussing new
+						project and design challenges. Feel
+						free to contact me any time.
 					</p>
 					<div className="social">
-						<FaFacebook
-							size={30}
+						<a
+							href="https://www.facebook.com/Wasiu1243"
+							target="_blank"
+							rel="noopener noreferrer"
 							style={{
-								color: '#fff',
-								marginRight: '1rem',
+								marginRight: "1rem",
 							}}
-						/>
-						<FaGithub
-							size={30}
+						>
+							<FaFacebook
+								size={30}
+								style={{
+									color: "#fff",
+								}}
+							/>
+						</a>
+
+						<a
+							href="https://github.com/Michaelwasilewski"
+							target="_blank"
+							rel="noopener noreferrer"
 							style={{
-								color: '#fff',
-								marginRight: '1rem',
+								marginRight: "1rem",
 							}}
-						/>
-						<FaLinkedin
-							size={30}
+						>
+							<FaGithub
+								size={30}
+								style={{
+									color: "#fff",
+								}}
+							/>
+						</a>
+
+						<a
+							href="https://www.linkedin.com/in/michal-wasilewski-751b8921a/"
+							target="_blank"
+							rel="noopener noreferrer"
 							style={{
-								color: '#fff',
-								marginRight: '1rem',
+								marginRight: "1rem",
 							}}
-						/>
+						>
+							<FaLinkedin
+								size={30}
+								style={{
+									color: "#fff",
+								}}
+							/>
+						</a>
 					</div>
 				</div>
 			</div>
