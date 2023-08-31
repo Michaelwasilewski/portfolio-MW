@@ -8,7 +8,7 @@ const Projects = () => {
 		<div>
 			<Navbar />
 			<HeroImg2
-				heading="PROJECTS."
+				heading="PROJECTS"
 				text="Some of my most recent work"
 			/>
 			<Work />

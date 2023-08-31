@@ -25,7 +25,7 @@ const Footer = () => {
 							}}
 						/>
 						<div>
-							<p>Located in Oslo.</p>
+							<p>Located in Oslo, </p>
 							<p>Norway.</p>
 						</div>
 					</div>

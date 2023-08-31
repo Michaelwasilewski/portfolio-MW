@@ -3,7 +3,6 @@ import './HeroImgStyles.css';
 import React from 'react';
 
 import IntroImg from '../assets/hero-img.jpg';
-import IntroImg2 from '../assets/hero-img2.jpg';
 
 import { Link } from 'react-router-dom';
 
@@ -24,8 +23,8 @@ const HeroImg = () => {
 					<Link to="/projects" className="btn">
 						Projects
 					</Link>
-					<Link to="/contact" className="btn btn-light">
-						Contact
+					<Link to="/about" className="btn btn-light">
+						About me
 					</Link>
 				</div>
 			</div>

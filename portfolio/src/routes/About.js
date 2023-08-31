@@ -8,7 +8,7 @@ const About = () => {
 		<div>
 			<Navbar />
 			<HeroImg2
-				heading="ABOUT."
+				heading="ABOUT"
 			/>
 			<AboutSection/>
 			<Footer />
