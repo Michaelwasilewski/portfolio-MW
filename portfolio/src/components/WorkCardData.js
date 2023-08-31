@@ -6,7 +6,7 @@ const ProjectCardData = [
 	{
 		imgscr: project4,
 		title: 'Holidaze',
-		text: 'This is my Project Exam in my last year at noroff. Made with ReactJS,Tailwind and Redux.',
+		text: 'Built with Node.js, React,Tailwind CSS, Redux, Formik, react-datepicker.',
 		view: 'https://project-exam-2-lyart.vercel.app/',
 		source:
 			'https://github.com/Michaelwasilewski/project-exam-2',
@@ -14,7 +14,7 @@ const ProjectCardData = [
 	{
 		imgscr: project3,
 		title: 'Auction Cloud',
-		text: 'This is my Third HTML, Tailwind, Javascript project.',
+		text: 'Built with HTML, Tailwind and Javascript',
 		view: 'https://rad-squirrel-681864.netlify.app/home.html',
 		source:
 			'https://github.com/Michaelwasilewski/Semester-project2',
@@ -22,7 +22,7 @@ const ProjectCardData = [
 	{
 		imgscr: project2,
 		title: 'Top Fyfe',
-		text: 'This is my First HTML, CSS and Javascript project. It is a rating/blog website',
+		text: 'Built with HTML, CSS, Javascript, Wordpress Rest API.',
 		view: 'https://resonant-jelly-60a227.netlify.app/',
 		source:
 			'https://github.com/Noroff-FEU-Assignments/project-exam-1-Michaelwasilewski',
@@ -30,7 +30,7 @@ const ProjectCardData = [
 	{
 		imgscr: Project1,
 		title: 'Community Science Museum',
-		text: 'This is my first HTML and CSS project.',
+		text: 'Built with HTML, CSS, Javascript',
 		view: 'https://communitysciencemuseummw.netlify.app/',
 		source:
 			'https://github.com/Noroff-Fagskole/semester-project-1-Michaelwasilewski',
