@@ -12,7 +12,6 @@
     z-index: 1;
     padding: 50px;
     background: linear-gradient(135deg, #242424, #0a0a0a);  /* Dark gradient background */
-    border-radius: 15px;
     color: #f5f5f5;
 }
 
@@ -27,13 +26,13 @@
     flex: 1;
     max-width: 500px;
     height: 300px;
-    position: relative; /* Used for the hover effect */
+    position: relative;
     z-index: 1;
-    transition: transform 0.3s ease; /* Transition effect */
+    transition: transform 0.3s ease;
 }
 
 .about-image:hover {
-    transform: scale(1.05); /* Hover effect */
+    transform: scale(1.05);
 }
 
 .about-image img {
@@ -52,9 +51,9 @@
     padding: 30px;
     border-radius: 10px;
     position: relative; 
-    top: -20px; /* Offset for a more dynamic look */
-    opacity: 0; /* Start with 0 opacity */
-    animation: fade-in 3s ease-in-out forwards; /* Apply the animation */
+    top: -20px;
+    opacity: 0;
+    animation: fade-in 3s ease-in-out forwards;
 }
 
 @keyframes fade-in {
@@ -77,7 +76,7 @@
 
 }
 
-/* Mobile adjustments */
+/* Mobile responsive */
 @media screen and (max-width: 640px) {
     .about-section {
         flex-direction: column;

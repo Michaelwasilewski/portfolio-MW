@@ -59,7 +59,7 @@ export function AboutSection() {
 					JavaScript ES6-spesialisations as
 					API-integration, Rest, Postman,
 					HTTPS-requests and JWT. My stack also
-					includes React, JSX, SASS,
+					includes React, TypeScript, JSX, SASS,
 					Styled-components, Redux, Redux Toolkit,
 					Git, VITE, GitHub Desktop, SourceTree,
 					NodeJS and Visual Studio Code.{" "}

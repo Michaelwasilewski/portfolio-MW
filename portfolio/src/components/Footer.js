@@ -59,7 +59,7 @@ const Footer = () => {
 					<p>
 						I'm a 29 year old junior developer,
 						looking to find a position at a
-						company ! I enjoy discussing new
+						company! I enjoy discussing new
 						project and design challenges. Feel
 						free to contact me any time.
 					</p>
