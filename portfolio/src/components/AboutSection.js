@@ -5,8 +5,11 @@ export function AboutSection() {
 	return (
 		<div className="about-section">
 			<div className="about-image">
-				<img src={profileImage} alt="Michael" />
-                <p className="name">Michael Wasilewski</p>
+				<img
+					src={profileImage}
+					alt="Michael"
+				/>
+				<p className="name">Michael Wasilewski</p>
 			</div>
 			<div className="about-text">
 				<h2>About Me</h2>
@@ -44,25 +47,24 @@ export function AboutSection() {
 					excel, innovate and reach new heights.{" "}
 				</p>
 				<p>
-					Here you can see a summary of my ever
-					evolving developer knowledge: HTML5,
-					CSS3, JavaScript, graphic design, color
-					theory, UX/UI design principals,
-					wireframing and prototyping, agile work
-					methods as Scrum and Kanban,
-					interaction- and responsive design,
-					manual-,unit- and end-to-end testing,
-					Jest and Cypress, machine learning,
-					DevOps, MySQL, MongoDB, Supabase,
-					Netlify and Vercel. CSS-frameworks as
-					Bootstrap, SASS, TailWind and PostCSS.
-					JavaScript ES6-spesialisations as
-					API-integration, Rest, Postman,
-					HTTPS-requests and JWT. My stack also
-					includes React, TypeScript, JSX, SASS,
+					My stack includes JavaScript, React,
+					TypeScript, JSX, SASS,
 					Styled-components, Redux, Redux Toolkit,
-					Git, VITE, GitHub Desktop, SourceTree,
-					NodeJS and Visual Studio Code.{" "}
+					Git, VITE, SourceTree and NodeJS. Here
+					you can see a summary of my ever
+					evolving developer knowledge: HTML5,
+					CSS3, graphic design, color theory,
+					UX/UI design principals, wireframing and
+					prototyping, agile work methods as Scrum
+					and Kanban, interaction- and responsive
+					design, manual-,unit- and end-to-end
+					testing, Jest and Cypress, machine
+					learning, DevOps, MySQL, MongoDB,
+					Supabase, Netlify and Vercel.
+					CSS-frameworks as Bootstrap, SASS,
+					TailWind and PostCSS. JavaScript
+					ES6-spesialisations as API-integration,
+					Rest, Postman, HTTPS-requests and JWT.
 				</p>
 			</div>
 		</div>
