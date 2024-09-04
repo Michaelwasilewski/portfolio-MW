@@ -57,10 +57,10 @@ const Footer = () => {
 				<div className="right">
 					<h4>About me</h4>
 					<p>
-						I'm a 29 year old junior developer,
+						I'm a 30 year old junior developer,
 						looking to find a position at a
 						company! I enjoy discussing new
-						project and design challenges. Feel
+						projects and design challenges. Feel
 						free to contact me any time.
 					</p>
 					<div className="social">
